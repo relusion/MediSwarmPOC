@@ -83,6 +83,7 @@ def lookup_patient_personal_info(first_name, last_name, context_variables):
 triage_agent = Agent(
     name="Triage Agent",
     instructions=triage_agent_prompt,
+    parallel_tool_calls=False,
     functions=[        
         transfer_to_doctor_agent,
         transfer_to_emergency_agent,
@@ -96,6 +97,7 @@ triage_agent = Agent(
 doctor_agent = Agent(
     name="Doctor Agent",
     instructions=doctor_agent_prompt,
+    parallel_tool_calls=False,
     functions=[
         ask_human_medical_professional,
         human_doctor_in_the_loop_prescription,         
