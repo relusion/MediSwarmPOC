@@ -8,6 +8,8 @@ This repository provides a proof-of-concept (POC) system for healthcare triage, 
   - [Overview](#overview)
   - [Key Features](#key-features)
   - [Architecture](#architecture)
+    - [Simplified Sequence Diagram](#simplified-sequence-diagram)
+    - [Detailed Sequence Diagram](#detailed-sequence-diagram)
   - [Setup](#setup)
     - [Requirements](#requirements)
     - [Environment Variables](#environment-variables)
@@ -41,6 +43,13 @@ This POC relies on several coordinated agents, each with distinct responsibiliti
 3. **Escalation Agent:** Manages emergency escalation to 911 or appropriate authorities.
 
 **Sequence Diagram:** 
+
+Not to overwhelm you with details, here's a simplified sequence diagram of the system's operation, it'very high-level and hides some details. The second diagram is more detailed and shows the interactions between the agents and the user.
+
+### Simplified Sequence Diagram
+![sequence_diagram](./images/sequence-simpl-diagram.svg)
+
+### Detailed Sequence Diagram
 ![sequence_diagram](./images/sequence-diagram.svg) 
 
 ## Setup
