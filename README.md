@@ -2,8 +2,7 @@
 
 This repository provides a proof-of-concept (POC) system for healthcare triage, developed using the [OpenAI Swarm Framework](https://github.com/openai/swarm). The POC is designed to handle dynamic healthcare scenarios, with multiple agent roles to assess patient symptoms, make real-time decisions, and escalate cases to human medical professionals when needed.
 
-## Table of Contents
-
+## Table of Contents  
 - [Healthcare Triage System Using OpenAI Swarm Framework](#healthcare-triage-system-using-openai-swarm-framework)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
