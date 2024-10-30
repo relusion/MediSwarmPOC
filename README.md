@@ -96,9 +96,9 @@ The POC implements several specialized agents, each playing a unique role:
 
 ## Limitations
 
-- **Not Deployable in Healthcare**: This POC requires extensive testing and validation before being considered for actual healthcare use.
-- **GPT Model Restriction**: Function-calling capabilities are specific to OpenAI’s GPT models.
-- **Limited Patient Safety Checks**: Additional security and privacy safeguards would be necessary for production deployment.
+- While it's promising, it's not ready for real healthcare settings yet - you'd need serious validation and testing first.
+- We're also locked into using OpenAI's GPT models since they're the only ones with these specific function-calling features. That might affect how you plan to scale or modify this in the future.
+- While we've got some basic protections in place, you'll need much more robust security and privacy measures before this goes anywhere near real patient data. We're talking HIPAA-grade safeguards here.
 
 ## Disclaimer
 

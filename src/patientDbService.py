@@ -9,7 +9,7 @@ class PatientDbService:
                 "last_name": "Doe",
                 "status": "alive",
                 "birth_date": "1976-01-01",
-                "age": 42,                
+                "age": 48,                
                 "history": {
                     "allergies": ["penicillin"],
                     "medications": ["aspirin, ibuprofen"],
@@ -21,7 +21,7 @@ class PatientDbService:
                 "last_name": "Doe",
                 "status": "alive",
                 "birth_date": "1986-01-01",
-                "age": 35,
+                "age": 38,
                 "history": {
                     "allergies": ["peanuts"],
                     "medications": ["insulin"],
